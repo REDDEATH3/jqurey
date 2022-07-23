@@ -1,2 +1,0 @@
-# jqurey
-button &amp; lorem 
