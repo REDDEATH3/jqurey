@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Galery</title>
+</head>
+
+<body>
+    <div class="images-container">
+        <div class="image">
+            <img src="image/1.jpg" alt="">
+        </div>
+    </div>
+    <div class="images-container">
+        <div class="image">
+            <img src="image/2.jpg" alt="">
+        </div>
+    </div>
+    <div class="images-container">
+        <div class="image">
+            <img src="image/3.jpg" alt="">
+        </div>
+    </div>
+    <div class="images-container">
+        <div class="image">
+            <img src="image/4.jpg" alt="">
+        </div>
+    </div>
+    <div class="images-container">
+        <div class="image">
+            <img src="image/5.jpg" alt="">
+        </div>
+    </div>
+    <div class="images-container">
+        <div class="image">
+            <img src="image/6.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="images-container">
+        <div class="image">
+            <img src="image/7.jpg" alt="">
+        </div>
+    </div>
+    <div class="images-container">
+        <div class="image">
+            <img src="image/8.jpg" alt="">
+        </div>
+    </div>
+    <div class="images-container">
+        <div class="image">
+            <img src="image/9.jpg" alt="">
+        </div>
+    </div>
+    <div class="images-container">
+        <div class="image">
+            <img src="image/10.jpg" alt="">
+        </div>
+    </div>
+    <div class="images-container">
+        <div class="image">
+            <img src="image/11.jpg" alt="">
+        </div>
+    </div>
+    <div class="images-container">
+        <div class="image">
+            <img src="image/12.jpg" alt="">
+        </div>
+    </div>
+
+    <button class="load-more">Load More</button>
+
+    <script>
+        $(document).ready(function(){
+            $(".image").slice(0, 5).fadeIn();
+            $(".load-more").click(function(){
+                $(".image").slice(0, 12).fadeIn();
+                $(this).fadeOut();
+            })
+        })
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
